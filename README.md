@@ -83,6 +83,43 @@ source .venv/bin/activate
 python3 -m consumers.kafka_consumer_case
 ```
 
+## Custom Producer
+The producer kafka_producer_hudson is a custom producer that has different buzz messages that kafka_producer_case.
+
+To run the producer, in VS Code, open a terminal.
+Use the commands below to activate .venv, and start the producer.
+
+Windows:
+```shell
+.venv\Scripts\activate
+py -m producers.kafka_producer_hudson
+```
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m producers.kafka_producer_hudson
+```
+
+## Custom consumer
+The consumer kafka_consumer_hudson is a custom consumer that has reads the buzz messages from the custom producer.
+The custom consumer alerts when a special message is found.
+
+To run the consumer, in VS Code, open a terminal.
+Use the commands below to activate .venv, and start the consumer.
+
+Windows:
+```shell
+.venv\Scripts\activate
+py -m consumers.kafka_consumer_hudson
+```
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.kafka_consumer_hudson
+```
+
 ## Later Work Sessions
 When resuming work on this project:
 1. Open the folder in VS Code. 
