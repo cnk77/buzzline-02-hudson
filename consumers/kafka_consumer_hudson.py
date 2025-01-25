@@ -61,6 +61,11 @@ def process_message(message: str) -> None:
     """
     logger.info(f"Processing message: {message}")
 
+    # monitor and alert on special conditions
+    if "GO CHIEFS!" in message:
+        print(f"ALERT: The special message was found! \n{message}")
+        logger.warning(f"ALERT: The special message was found! \n{message}")
+
 
 #####################################
 # Define main function for this module
