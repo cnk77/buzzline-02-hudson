@@ -1,0 +1,372 @@
+2025-01-24 15:03:41.343 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 15:03:41.347 | INFO     | __main__:main:103 - START producer.
+2025-01-24 15:03:41.348 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-24 15:03:45.449 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-24 15:03:45.449 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-24 15:04:12.351 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 15:04:12.353 | INFO     | __main__:main:78 - START consumer.
+2025-01-24 15:04:12.353 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-24 15:04:12.353 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-24 15:04:12.353 | INFO     | __main__:main:83 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-24 15:04:12.353 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 15:04:12.354 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-24 15:04:14.375 | ERROR    | utils.utils_consumer:create_kafka_consumer:60 - Error creating Kafka consumer: NoBrokersAvailable
+2025-01-24 15:04:23.162 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 15:04:23.164 | INFO     | __main__:main:103 - START producer.
+2025-01-24 15:04:23.165 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-24 15:04:26.389 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 15:04:26.393 | INFO     | __main__:main:78 - START consumer.
+2025-01-24 15:04:26.393 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-24 15:04:26.393 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-24 15:04:26.394 | INFO     | __main__:main:83 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-24 15:04:26.394 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 15:04:26.395 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-24 15:04:27.305 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-24 15:04:27.305 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-24 15:04:28.419 | ERROR    | utils.utils_consumer:create_kafka_consumer:60 - Error creating Kafka consumer: NoBrokersAvailable
+2025-01-24 15:15:16.144 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 15:15:16.147 | INFO     | __main__:main:103 - START producer.
+2025-01-24 15:15:16.147 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-24 15:15:20.242 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-24 15:15:20.243 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-24 16:47:02.497 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 16:47:02.500 | INFO     | __main__:main:103 - START producer.
+2025-01-24 16:47:02.500 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-24 16:47:06.629 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-24 16:47:06.630 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-24 16:48:08.331 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 16:48:08.334 | INFO     | __main__:main:78 - START consumer.
+2025-01-24 16:48:08.334 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-24 16:48:08.334 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-24 16:48:08.335 | INFO     | __main__:main:83 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-24 16:48:08.335 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 16:48:08.335 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-24 16:48:10.349 | ERROR    | utils.utils_consumer:create_kafka_consumer:60 - Error creating Kafka consumer: NoBrokersAvailable
+2025-01-24 17:01:21.661 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 17:01:21.664 | INFO     | __main__:main:103 - START producer.
+2025-01-24 17:01:21.664 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-24 17:01:21.674 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-24 17:01:21.674 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:01:22.009 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '82FGaFGpTo6cZ-7PvatC7g', 'controller_id': 1001}
+2025-01-24 17:01:22.011 | INFO     | __main__:get_kafka_topic:41 - Kafka topic: buzzline
+2025-01-24 17:01:22.012 | INFO     | __main__:get_message_interval:48 - Message interval: 1 seconds
+2025-01-24 17:01:22.012 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:01:22.013 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-24 17:01:22.126 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-24 17:01:22.128 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:01:22.464 | INFO     | utils.utils_producer:create_kafka_topic:176 - Creating 'buzzline'.
+2025-01-24 17:01:22.614 | INFO     | utils.utils_producer:create_kafka_topic:181 - Topic 'buzzline' created successfully.
+2025-01-24 17:01:22.616 | INFO     | __main__:main:119 - Kafka topic 'buzzline' is ready.
+2025-01-24 17:01:22.616 | INFO     | __main__:main:125 - Starting message production to topic 'buzzline'...
+2025-01-24 17:01:22.617 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:01:22.625 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:01:23.626 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:01:23.628 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:01:24.629 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:01:24.631 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:01:25.635 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:01:25.637 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:01:26.639 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:01:26.641 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:01:27.643 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:01:27.645 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:01:28.647 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:01:28.649 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:01:29.651 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:01:29.653 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:01:30.655 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:01:30.656 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:01:31.659 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:01:31.661 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:01:32.663 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:01:32.664 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:01:33.666 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:01:33.667 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:01:34.669 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:01:34.670 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:01:35.672 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:01:35.674 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:01:36.677 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:01:36.679 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:01:37.681 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:01:37.682 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:01:38.683 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:01:38.684 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:01:39.686 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:01:39.688 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:01:40.690 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:01:40.692 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:01:41.694 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:01:41.695 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:01:42.697 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:01:42.697 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:01:43.700 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:01:43.701 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:01:44.703 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:01:44.704 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:01:45.706 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:01:45.708 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:01:46.709 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:01:46.710 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:01:47.711 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:01:47.713 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:01:48.715 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:01:48.716 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:01:49.718 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:01:49.720 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:01:50.722 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:01:50.723 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:01:51.725 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:01:51.727 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:01:52.728 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:01:52.729 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:01:53.731 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:01:53.733 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:01:54.735 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:01:54.735 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:01:55.737 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:01:55.738 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:01:56.740 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:01:56.741 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:01:57.743 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:01:57.743 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:01:58.744 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:01:58.744 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:01:59.746 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:01:59.747 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:00.748 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:02:00.749 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:02:01.750 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:02:01.750 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:02:02.752 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:02:02.752 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:02:03.753 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:02:03.753 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:02:04.755 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:02:04.756 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:05.758 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:02:05.759 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:02:06.761 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:02:06.763 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:02:07.764 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:02:07.765 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:02:08.767 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:02:08.768 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:02:09.771 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:02:09.772 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:10.774 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:02:10.776 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:02:11.778 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:02:11.778 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:02:12.780 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:02:12.780 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:02:13.781 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:02:13.782 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:02:14.784 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:02:14.785 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:15.787 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:02:15.787 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:02:16.788 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:02:16.790 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:02:17.792 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:02:17.793 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:02:18.795 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:02:18.795 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:02:19.796 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:02:19.798 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:20.799 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:02:20.801 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:02:21.802 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:02:21.803 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:02:22.806 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:02:22.806 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:02:23.809 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:02:23.809 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:02:24.810 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:02:24.810 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:25.061 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-24 17:02:25.064 | INFO     | __main__:main:78 - START consumer.
+2025-01-24 17:02:25.065 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-24 17:02:25.065 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-24 17:02:25.065 | INFO     | __main__:main:83 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-24 17:02:25.065 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-24 17:02:25.065 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-24 17:02:25.812 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:02:25.813 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:02:26.815 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:02:26.816 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:02:27.085 | ERROR    | utils.utils_consumer:create_kafka_consumer:60 - Error creating Kafka consumer: NoBrokersAvailable
+2025-01-24 17:02:27.818 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:02:27.819 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:02:28.820 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:02:28.822 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:02:29.823 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:02:29.824 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:30.827 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:02:30.828 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:02:31.830 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:02:31.830 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:02:32.832 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:02:32.833 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:02:33.835 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:02:33.837 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:02:34.839 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:02:34.840 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:35.842 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-24 17:02:35.843 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-24 17:02:36.845 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-24 17:02:36.846 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-24 17:02:37.848 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-24 17:02:37.849 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-24 17:02:38.852 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-24 17:02:38.853 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-24 17:02:39.854 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-24 17:02:39.855 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-24 17:02:40.841 | WARNING  | __main__:generate_messages:82 - Producer interrupted by user.
+2025-01-24 17:02:51.909 | INFO     | __main__:generate_messages:87 - Kafka producer closed.
+2025-01-24 17:02:51.910 | INFO     | __main__:main:128 - END producer.
+2025-01-25 10:30:00.197 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-25 10:30:00.248 | INFO     | __main__:main:103 - START producer.
+2025-01-25 10:30:00.249 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-25 10:30:04.413 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-25 10:30:04.414 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-25 10:31:43.270 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-25 10:31:43.274 | INFO     | __main__:main:103 - START producer.
+2025-01-25 10:31:43.274 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-25 10:31:43.282 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-25 10:31:43.283 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:31:45.304 | ERROR    | utils.utils_producer:check_kafka_service_is_ready:102 - Error checking Kafka: NoBrokersAvailable
+2025-01-25 10:31:45.306 | ERROR    | utils.utils_producer:verify_services:121 - Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-01-25 10:33:20.399 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-25 10:33:20.401 | INFO     | __main__:main:103 - START producer.
+2025-01-25 10:33:20.402 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-25 10:33:20.408 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-25 10:33:20.409 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:33:20.759 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '44OOqNqlT7OxTEYGM_mBpg', 'controller_id': 1001}
+2025-01-25 10:33:20.760 | INFO     | __main__:get_kafka_topic:41 - Kafka topic: buzzline
+2025-01-25 10:33:20.762 | INFO     | __main__:get_message_interval:48 - Message interval: 1 seconds
+2025-01-25 10:33:20.762 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:33:20.763 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-25 10:33:20.880 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-25 10:33:20.882 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:33:21.210 | INFO     | utils.utils_producer:create_kafka_topic:176 - Creating 'buzzline'.
+2025-01-25 10:33:21.573 | INFO     | utils.utils_producer:create_kafka_topic:181 - Topic 'buzzline' created successfully.
+2025-01-25 10:33:21.575 | INFO     | __main__:main:119 - Kafka topic 'buzzline' is ready.
+2025-01-25 10:33:21.575 | INFO     | __main__:main:125 - Starting message production to topic 'buzzline'...
+2025-01-25 10:33:21.575 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-25 10:33:21.596 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-25 10:33:22.597 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-25 10:33:22.598 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-25 10:33:23.600 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-25 10:33:23.601 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-25 10:33:24.604 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-25 10:33:24.606 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-25 10:33:25.608 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-25 10:33:25.609 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-25 10:33:26.612 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-25 10:33:26.613 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-25 10:33:27.614 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-25 10:33:27.615 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-25 10:33:28.123 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-25 10:33:28.125 | INFO     | __main__:main:78 - START consumer.
+2025-01-25 10:33:28.126 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-25 10:33:28.126 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-25 10:33:28.126 | INFO     | __main__:main:83 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-25 10:33:28.127 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:33:28.128 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-25 10:33:28.246 | INFO     | utils.utils_consumer:create_kafka_consumer:57 - Kafka consumer created successfully.
+2025-01-25 10:33:28.248 | INFO     | __main__:main:89 - Polling messages from topic 'buzzline'...
+2025-01-25 10:33:28.617 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-25 10:33:28.618 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-25 10:33:29.620 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-25 10:33:29.621 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-25 10:33:30.623 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-25 10:33:30.625 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-25 10:33:30.742 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-25 10:33:30.744 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-25 10:33:30.746 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-25 10:33:30.748 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-25 10:33:30.750 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-25 10:33:30.753 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-25 10:33:30.755 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-25 10:33:30.757 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-25 10:33:30.759 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-25 10:33:30.761 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-25 10:33:31.627 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-25 10:33:31.628 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-25 10:33:31.637 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-25 10:33:32.630 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-25 10:33:32.631 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-25 10:33:32.640 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-25 10:33:33.633 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-25 10:33:33.634 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-25 10:33:33.644 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-25 10:33:34.636 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-25 10:33:34.638 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-25 10:33:34.648 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-25 10:33:35.639 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-25 10:33:35.640 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-25 10:33:35.650 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-25 10:33:36.643 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-25 10:33:36.644 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-25 10:33:36.654 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-25 10:33:37.646 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-25 10:33:37.646 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-25 10:33:37.652 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-25 10:33:38.648 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-25 10:33:38.649 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-25 10:33:38.658 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-25 10:33:39.651 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-25 10:33:39.653 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-25 10:33:39.659 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-25 10:33:40.655 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-25 10:33:40.656 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-25 10:33:40.661 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-25 10:33:41.657 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-25 10:33:41.658 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-25 10:33:41.667 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-25 10:33:42.661 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-25 10:33:42.662 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-25 10:33:42.672 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-25 10:33:43.665 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-25 10:33:43.668 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-25 10:33:43.676 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-25 10:33:44.669 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-25 10:33:44.670 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-25 10:33:44.679 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-25 10:33:45.672 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-25 10:33:45.674 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-25 10:33:45.682 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-25 10:33:46.676 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-25 10:33:46.676 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-25 10:33:46.683 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-25 10:33:47.678 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-25 10:33:47.678 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-25 10:33:47.684 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-25 10:33:48.680 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-25 10:33:48.681 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-25 10:33:48.692 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-25 10:33:49.683 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-25 10:33:49.684 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-25 10:33:49.692 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-25 10:33:50.686 | INFO     | __main__:generate_messages:77 - Generated buzz: Have a great day!
+2025-01-25 10:33:50.687 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Have a great day!
+2025-01-25 10:33:50.696 | INFO     | __main__:process_message:62 - Processing message: Have a great day!
+2025-01-25 10:33:51.690 | INFO     | __main__:generate_messages:77 - Generated buzz: I love Python!
+2025-01-25 10:33:51.691 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': I love Python!
+2025-01-25 10:33:51.698 | INFO     | __main__:process_message:62 - Processing message: I love Python!
+2025-01-25 10:33:52.693 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is awesome.
+2025-01-25 10:33:52.694 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is awesome.
+2025-01-25 10:33:52.703 | INFO     | __main__:process_message:62 - Processing message: Kafka is awesome.
+2025-01-25 10:33:53.696 | INFO     | __main__:generate_messages:77 - Generated buzz: Streaming data is fun.
+2025-01-25 10:33:53.697 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Streaming data is fun.
+2025-01-25 10:33:53.707 | INFO     | __main__:process_message:62 - Processing message: Streaming data is fun.
+2025-01-25 10:33:54.700 | INFO     | __main__:generate_messages:77 - Generated buzz: This is a buzz message.
+2025-01-25 10:33:54.701 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': This is a buzz message.
+2025-01-25 10:33:54.712 | INFO     | __main__:process_message:62 - Processing message: This is a buzz message.
+2025-01-25 10:33:55.499 | WARNING  | __main__:generate_messages:82 - Producer interrupted by user.
+2025-01-25 10:33:55.501 | INFO     | __main__:generate_messages:87 - Kafka producer closed.
+2025-01-25 10:33:55.502 | INFO     | __main__:main:128 - END producer.
+2025-01-25 10:33:57.739 | WARNING  | __main__:main:96 - Consumer interrupted by user.
+2025-01-25 10:33:57.782 | INFO     | __main__:main:101 - Kafka consumer for topic 'buzzline' closed.
+2025-01-25 10:33:57.783 | INFO     | __main__:main:103 - END consumer for topic 'buzzline' and group 'default_group'.
