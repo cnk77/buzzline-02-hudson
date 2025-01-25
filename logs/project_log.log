@@ -370,3 +370,49 @@
 2025-01-25 10:33:57.739 | WARNING  | __main__:main:96 - Consumer interrupted by user.
 2025-01-25 10:33:57.782 | INFO     | __main__:main:101 - Kafka consumer for topic 'buzzline' closed.
 2025-01-25 10:33:57.783 | INFO     | __main__:main:103 - END consumer for topic 'buzzline' and group 'default_group'.
+2025-01-25 10:47:51.132 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-25 10:47:51.135 | INFO     | __main__:main:103 - START producer.
+2025-01-25 10:47:51.135 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-25 10:47:51.143 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-25 10:47:51.143 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:47:51.494 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '44OOqNqlT7OxTEYGM_mBpg', 'controller_id': 1001}
+2025-01-25 10:47:51.495 | INFO     | __main__:get_kafka_topic:41 - Kafka topic: buzzline
+2025-01-25 10:47:51.495 | INFO     | __main__:get_message_interval:48 - Message interval: 1 seconds
+2025-01-25 10:47:51.496 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:47:51.496 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-25 10:47:51.610 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-25 10:47:51.611 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:47:51.959 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline' already exists. Clearing it out...
+2025-01-25 10:47:51.960 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-25 10:47:52.323 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline': list indices must be integers or slices, not ConfigResource
+2025-01-25 10:47:52.325 | INFO     | __main__:main:119 - Kafka topic 'buzzline' is ready.
+2025-01-25 10:47:52.326 | INFO     | __main__:main:125 - Starting message production to topic 'buzzline'...
+2025-01-25 10:47:52.326 | INFO     | __main__:generate_messages:77 - Generated buzz: Installation can be tricky, take your time
+2025-01-25 10:47:52.330 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Installation can be tricky, take your time
+2025-01-25 10:47:53.332 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a powerful tool.
+2025-01-25 10:47:53.333 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a powerful tool.
+2025-01-25 10:47:54.336 | INFO     | __main__:generate_messages:77 - Generated buzz: Don't forget to Git add, commit and push your project often.
+2025-01-25 10:47:54.338 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Don't forget to Git add, commit and push your project often.
+2025-01-25 10:47:55.340 | INFO     | __main__:generate_messages:77 - Generated buzz: GO CHIEFS!
+2025-01-25 10:47:55.341 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': GO CHIEFS!
+2025-01-25 10:47:56.343 | INFO     | __main__:generate_messages:77 - Generated buzz: Mizzou basketball is fun again!
+2025-01-25 10:47:56.344 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Mizzou basketball is fun again!
+2025-01-25 10:47:57.346 | INFO     | __main__:generate_messages:77 - Generated buzz: Installation can be tricky, take your time
+2025-01-25 10:47:57.348 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Installation can be tricky, take your time
+2025-01-25 10:47:58.349 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a powerful tool.
+2025-01-25 10:47:58.350 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a powerful tool.
+2025-01-25 10:47:59.353 | INFO     | __main__:generate_messages:77 - Generated buzz: Don't forget to Git add, commit and push your project often.
+2025-01-25 10:47:59.353 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Don't forget to Git add, commit and push your project often.
+2025-01-25 10:48:00.355 | INFO     | __main__:generate_messages:77 - Generated buzz: GO CHIEFS!
+2025-01-25 10:48:00.356 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': GO CHIEFS!
+2025-01-25 10:48:01.357 | INFO     | __main__:generate_messages:77 - Generated buzz: Mizzou basketball is fun again!
+2025-01-25 10:48:01.359 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Mizzou basketball is fun again!
+2025-01-25 10:48:02.361 | INFO     | __main__:generate_messages:77 - Generated buzz: Installation can be tricky, take your time
+2025-01-25 10:48:02.362 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Installation can be tricky, take your time
+2025-01-25 10:48:03.364 | INFO     | __main__:generate_messages:77 - Generated buzz: Kafka is a powerful tool.
+2025-01-25 10:48:03.366 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Kafka is a powerful tool.
+2025-01-25 10:48:04.368 | INFO     | __main__:generate_messages:77 - Generated buzz: Don't forget to Git add, commit and push your project often.
+2025-01-25 10:48:04.369 | INFO     | __main__:generate_messages:79 - Sent message to topic 'buzzline': Don't forget to Git add, commit and push your project often.
+2025-01-25 10:48:05.217 | WARNING  | __main__:generate_messages:82 - Producer interrupted by user.
+2025-01-25 10:48:05.219 | INFO     | __main__:generate_messages:87 - Kafka producer closed.
+2025-01-25 10:48:05.220 | INFO     | __main__:main:128 - END producer.
